@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------------------------
+#Change mouse sensitivity through command prompt (Change /d 10 number to change speed) (MAX is 30)
+reg add "HKCU\Control Panel\Mouse" /v MouseSensitivity /t REG_SZ /d 10 /f
+pause
+--------------------------------------------------------------------------------------------------
+#Start control panel from command prompt
+start control
+--------------------------------------------------------------------------------------------------
+#Shutdown computer after certain amount of time
+@echo off
+shutdown -s -t 3600
+--------------------------------------------------------------------------------------------------
+#Abort shutdown script
+@echo off
+shutdown -a
+--------------------------------------------------------------------------------------------------
+#Dark Mode
+Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
+--------------------------------------------------------------------------------------------------
+#Disable Cortana
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows
+--------------------------------------------------------------------------------------------------
+#Menu Delay
+Computer\HKEY_CURRENT_USER\Control Panel\Desktop
+--------------------------------------------------------------------------------------------------
+#Disable lock screen
+Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
