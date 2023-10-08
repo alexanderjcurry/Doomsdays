@@ -1,1 +1,1 @@
-Lots of this is chicken scratch and is used more as a place to dump my files.
+This is mostly chicken scratch and is a lot of work in process documentation.
