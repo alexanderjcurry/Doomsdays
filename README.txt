@@ -1,1 +1,1 @@
-This is mostly chicken scratch and is a lot of work in process documentation.
+This is mostly chicken scratch for my documentation and a lot of it is a work in progress.
